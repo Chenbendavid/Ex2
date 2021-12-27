@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ex2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello \r\nWorld\n:)");
+            Console.WriteLine();
+            Console.WriteLine("LOVE IS IN THE AIR!");
+            Console.ReadKey();
+
+        }
+    }
+}
