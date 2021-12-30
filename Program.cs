@@ -10,7 +10,7 @@ namespace Ex2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello \r\nWorld\n:)");
+            Console.WriteLine("Hello \r\nWorld:)");
             Console.WriteLine();
             Console.WriteLine("LOVE IS IN THE AIR!");
             Console.ReadKey();
