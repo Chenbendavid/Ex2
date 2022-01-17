@@ -56,7 +56,7 @@ namespace Ex2
             Console.WriteLine(fullN.ToUpper() + (fullN.Count()));
             bool result = (fullN.Count()).Equals(Age_chen);
             Console.WriteLine(result);
-            Console.WriteLine("******************************************************");
+            Console.WriteLine("*****************************************************");
 
 
             Console.Write("Enter your gender (Write F for female or M for male > ");
