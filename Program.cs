@@ -100,6 +100,13 @@ namespace Ex2
             Console.WriteLine((number < 0 || number >= 50 || number == 10));
             //Console.WriteLine((number % 2 == 0 && number <= 100 && number >= 50));
         }
+
+        public static void Lesson20()
+        {
+            Console.Write("Insert number 2");
+            int number2 = int.Parse(console.ReadLine());
+            Console.WriteLine(number2 % 2 == 0 ? number2 : -1);
+        }
     }
 }
 
