@@ -15,12 +15,12 @@ namespace Ex2
             Console.ReadKey();
             //Sefi();
             //Chen();
-            Female();
+            //Female();
             //ExArray exArray = new ExArray();
             //exArray.StringWords();
             //exArray.StringWords2();
             //exArray.PeapleAndPlaces();  
-
+            Lesson19();
         }
 
         public static void Sefi()
@@ -92,6 +92,14 @@ namespace Ex2
             Console.ReadKey();
         }
 
+        public static void Lesson19()
+        {
+            Console.Write("Insert a number");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine((number > 0 && number <= 100));
+            Console.WriteLine((number < 0 || number >= 50 || number == 10));
+            //Console.WriteLine((number % 2 == 0 && number <= 100 && number >= 50));
+        }
     }
 }
 
